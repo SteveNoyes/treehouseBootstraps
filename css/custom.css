@@ -4,7 +4,15 @@
 }
 
 .jumbotron {
-  background-image: url('../img/jumbo-bg.jpg');
+  background: url('../img/georgeandgreg0.jpg');
   background-size: cover;
+}
+
+
+@media only screen and (min-width: 600px)  {
+  .jumbotron {
+    background: url('../img/rickandmorty.png');
+    background-size: cover;
+  }
 }
 
